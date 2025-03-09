@@ -1,11 +1,11 @@
-  variable "instance_type" {
+variable "instance_type" {
   description = "EC2 instance type"
   default     = "t2.micro"
 }
 
 variable "ami_id" {
   description = "Amazon Machine Image (AMI) for Ubuntu"
-  default     = "ami-0a89fa9a6d8c7ad98" 
+  default     = "ami-0a89fa9a6d8c7ad98"
 }
 
 variable "key_name" {
@@ -15,5 +15,5 @@ variable "key_name" {
 
 variable "security_group_id" {
   description = "Existing Security Group ID for EC2"
-  default     = "sg-0709de0ec0d9db063"  # Replace with actual Security Group ID
-}  
+  default     = "sg-030d8f71dd29dd7be"  # Replace with actual Security Group ID
+}
