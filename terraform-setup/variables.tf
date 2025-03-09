@@ -10,7 +10,7 @@ variable "ami_id" {
 
 variable "key_name" {
   description = "Name of the SSH key pair"
-  default     = "Automation_DevOps_Pipeline"
+  default     = "Terra1"
 }
 
 variable "security_group_id" {
